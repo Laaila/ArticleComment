@@ -1,7 +1,7 @@
-Comment Input with Validation
-This is a simple web application that allows users to input comments and displays them on the page. The comments are validated to ensure they meet certain criteria before being submitted.
+**Comment Input with Validation**
+This simple web application allows users to input comments and display them on the page. The comments are validated to ensure they meet certain criteria before being submitted.
 
-Features
+**Features**
 Comment Input: Users can enter their comments in the input field.
 Validation: The application validates the comment input to ensure it meets the following criteria:
 At least 5 characters long
@@ -10,7 +10,7 @@ Real-time Feedback: If the comment input is invalid, an error message is display
 Comment Display: Once a valid comment is submitted, it is displayed on the page.
 
 
-Usage
+**Usage**
 Open the HTML file in a web browser.
 Enter a comment in the input field.
 Click the "Submit" button.
