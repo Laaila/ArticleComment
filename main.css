@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+}
+
+header {
+  background-color: rgb(20, 123, 94);
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.artical {
+  margin: 20px 100px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.artical .img-title {
+  width: 100%;
+  height: 400px;
+}
+
+.artical .img-title img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artical h1 {
+  margin: 10px 0;
+}
+
+.artical p {
+  line-height: 1.4;
+}
+
+.comments {
+  background-color: white;
+  margin: 0 100px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.single-comment {
+  padding: 10px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.single-comment h4 {
+  margin-bottom: 5px;
+}
+
+.comments input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.comments button {
+  width: 100%;
+  background-color: rgb(20, 123, 94);
+  font-weight: 600;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments button:hover {
+  background-color: rgb(20, 87, 68);
+}
+
+.error-msg {
+  color: red;
+}
+
+.successful-msg {
+  position: fixed;
+  background-color: rgb(225, 255, 225);
+  color: rgb(0, 81, 0);
+  bottom: -40px;
+  right: 10px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all ease-in-out 0.3s;
+}
+
+.successful-msg.active {
+  bottom: 10px;
+}
